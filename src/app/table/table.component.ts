@@ -13,7 +13,8 @@ export class TableComponent {
   formData: any[] = [];
 
   saveData(a: any) {
-    this.formData.push(a);
+    this.formData.push(a.value);
+    a.resetForm();
     // console.log(a.firstName);
   }
 }
