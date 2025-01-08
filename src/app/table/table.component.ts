@@ -5,7 +5,10 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-table',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [
+    CommonModule,
+    FormsModule
+  ],
   templateUrl: './table.component.html',
   styleUrl: './table.component.scss'
 })
